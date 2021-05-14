@@ -1,0 +1,44 @@
+.div
+{
+    height: 450px;
+}
+
+h1
+{
+    color: orange;
+
+    position: absolute;
+    top: 50px;
+    left: 320px;
+
+    background-color: black;
+    
+    border-radius: 10px;
+
+    padding: 5px;
+}
+
+h1:hover
+{
+    display: none;
+}
+
+img
+{
+    border: 2px solid black;
+    border-radius: 20px;
+
+    transform: rotate(-10deg);
+
+    padding: 10px;
+}
+
+.important
+{
+    color: red;
+}
+
+.ok
+{
+    color: blue;
+}

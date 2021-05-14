@@ -1,0 +1,12 @@
+<div class="div">
+
+    <img src="https://photos.lci.fr/images/613/344/000_8wa6ct-9825da-0@1x.jpeg">
+
+    <h1 [class.important]="isImportant"
+    [class.ok]="!isImportant">I'm {{prenom | uppercase}} !</h1>
+
+</div>
+
+<button (click)="changeElon()">Click here</button>
+
+<p>Nous sommes le {{date | date:'dd/MM/yyy'}} et il est {{ date | date:'h:mm a'}}</p>
